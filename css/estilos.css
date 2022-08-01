@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(24, 21, 21);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fundo img {
+    object-fit: cover;
+}
+
+.jogo img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(24, 21, 21);
+}
+
+.nome {
+    padding-left: 110px;
+    color: white;
+}
+
+.cadastro {
+    padding: 100px;
+    color: black;
+    text-align: center;
+  
+
+}
+
+.botao{
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+.xbox{
+    padding-left: 50px;
+    margin: 50px;
+}
+
+.rodape{
+    display: flex;
+    background-color: #d3d3d3;
+}
+
+.rodape li{
+    margin: 10px;
+    list-style: none;
+    padding-left: 200px;
+}
+
+
+
+
+
